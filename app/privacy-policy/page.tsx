@@ -1,8 +1,100 @@
+export const metadata = {
+  title: 'Политика конфиденциальности',
+  description: 'Политика обработки персональных данных пользователей',
+}
+
 export default function PrivacyPolicy() {
   return (
-    <div className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="text-4xl font-semibold mb-8">Privacy Policy</h1>
-      <p className="text-zinc-400">We respect your privacy. This is a placeholder policy for the AI Subscriptions platform.</p>
+    <div className="min-h-screen bg-black text-white px-6 py-16">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-4xl font-bold mb-10">
+          ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ ПО РАБОТЕ С ПЕРСОНАЛЬНЫМИ ДАННЫМИ ПОЛЬЗОВАТЕЛЕЙ
+        </h1>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">
+          1. ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ
+        </h2>
+
+        <p className="text-zinc-400 mb-4">
+          <strong>Персональные данные</strong> — любая информация, относящаяся к определенному или
+          определяемому на основании такой информации физическому лицу (субъекту персональных данных).
+          К такой информации, в частности, относятся: фамилия, имя, отчество, номер телефона,
+          электронная почта и иная информация.
+        </p>
+
+        <p className="text-zinc-400 mb-4">
+          <strong>Обработка персональных данных</strong> — любое действие или совокупность действий,
+          совершаемых с использованием средств автоматизации или без использования таких средств
+          с персональными данными.
+        </p>
+
+        <p className="text-zinc-400 mb-4">
+          <strong>Конфиденциальность персональных данных</strong> — обязательное требование
+          не допускать распространения данных без согласия субъекта.
+        </p>
+
+        <p className="text-zinc-400 mb-4">
+          <strong>Оператор</strong> — Компания, осуществляющая обработку персональных данных
+          пользователей.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          2. ПРАВА И ОБЯЗАННОСТИ
+        </h2>
+
+        <ul className="list-disc pl-6 text-zinc-400 space-y-2">
+          <li>Оператор организует обработку данных в соответствии с законодательством РФ.</li>
+          <li>Пользователь обязан предоставлять достоверные данные.</li>
+          <li>Пользователь имеет право требовать уточнения или удаления своих данных.</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          3. ПРИНЦИПЫ ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ
+        </h2>
+
+        <ul className="list-disc pl-6 text-zinc-400 space-y-2">
+          <li>Законность и справедливость обработки.</li>
+          <li>Обработка только в рамках заявленных целей.</li>
+          <li>Минимизация объема данных.</li>
+          <li>Хранение данных не дольше необходимого срока.</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          4. ЦЕЛИ ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ
+        </h2>
+
+        <ul className="list-disc pl-6 text-zinc-400 space-y-2">
+          <li>Предоставление доступа к сервису.</li>
+          <li>Информирование пользователей.</li>
+          <li>Обработка платежей и подписок.</li>
+        </ul>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          5. КОНФИДЕНЦИАЛЬНОСТЬ
+        </h2>
+
+        <p className="text-zinc-400 mb-4">
+          Оператор обязуется не раскрывать персональные данные третьим лицам,
+          за исключением случаев, предусмотренных законодательством РФ.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-10 mb-4">
+          6. ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ
+        </h2>
+
+        <p className="text-zinc-400 mb-4">
+          Пользователь может получить разъяснения по вопросам обработки
+          персональных данных, обратившись по электронной почте:
+        </p>
+
+        <p className="text-white font-semibold">
+          support@yourdomain.com
+        </p>
+
+        <p className="text-zinc-500 mt-8 text-sm">
+          Политика действует бессрочно до замены новой редакцией.
+        </p>
+      </div>
     </div>
   )
 }
